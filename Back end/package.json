@@ -1,0 +1,27 @@
+{
+  "name": "GARAGE API",
+  "version": "1.0.0",
+  "description": "node js api powered by graphql and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js ./src/index.js",
+    "seed": "node ./src/helpers/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniels-not",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^2.3.0",
+    "fastify-cors": "^6.1.0",
+    "fastify-gql": "^1.1.0",
+    "fastify-mongodb": "^1.0.1",
+    "fastify-swagger": "^2.4.0",
+    "graphql": "^14.3.0",
+    "mongoose": "^5.13.15"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "nodemon": "^1.19.0"
+  }
+}
